@@ -1,10 +1,8 @@
-import telebot
-import os
+import telebot  # pastikan sudah install: pip install pyTelegramBotAPI
 
 # Token dari BotFather
 BOT_TOKEN = "8431204846:AAF0JscZ7a0m0z_sT_zKiPqBzDX_x5NEzq0"
-bot = telebot.TeleBot(8431204846:AAF0JscZ7a0m0z_sT_zKiPqBzDX_x5NEzq0
-)
+bot = telebot.TeleBot(BOT_TOKEN)
 
 # Auto reply pesan masuk
 @bot.message_handler(func=lambda message: True)
