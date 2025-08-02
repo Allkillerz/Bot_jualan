@@ -2,8 +2,7 @@ import telebot
 import os
 
 # Token dari BotFather
-BOT_TOKEN = os.getenv("8431204846:AAF0JscZ7a0m0z_sT_zKiPqBzDX_x5NEzq0
-")
+BOT_TOKEN = "8431204846:AAF0JscZ7a0m0z_sT_zKiPqBzDX_x5NEzq0"
 bot = telebot.TeleBot(8431204846:AAF0JscZ7a0m0z_sT_zKiPqBzDX_x5NEzq0
 )
 
